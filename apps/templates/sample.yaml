@@ -11,6 +11,6 @@ spec:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: sample
+    path: apps
     repoURL: ssh://git@github.com/rahulraj2/helmargocd.git
     targetRevision: {{ .Values.spec.source.targetRevision }}
